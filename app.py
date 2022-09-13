@@ -7,3 +7,6 @@ ip = st.text_input('Enter the out/Notout')
 op = model.predict([ip])
 if st.button('predict'):
   st.title(op[0])
+  
+  
+  
